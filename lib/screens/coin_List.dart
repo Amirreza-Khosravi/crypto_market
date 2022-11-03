@@ -1,6 +1,6 @@
 import 'package:crypto_market/data/constant/constants.dart';
 import 'package:crypto_market/data/model/crypto.dart';
-import 'package:crypto_market/screens/chart.dart';
+
 
 import 'package:crypto_market/screens/search_screen.dart';
 import 'package:dio/dio.dart';

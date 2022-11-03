@@ -14,7 +14,6 @@ class HomeScreen extends StatefulWidget {
 class _HomeScreenState extends State<HomeScreen> {
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     getData();
   }
@@ -47,10 +46,12 @@ class _HomeScreenState extends State<HomeScreen> {
         .toList();
 
     Navigator.push(
-        context,
-        MaterialPageRoute(
-            builder: (context) => CoinScreen(
-                  cryptoList: cryptoList,
-                )));
+      context,
+      MaterialPageRoute(
+        builder: (context) => CoinScreen(
+          cryptoList: cryptoList,
+        ),
+      ),
+    );
   }
 }
